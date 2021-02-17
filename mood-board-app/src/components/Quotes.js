@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Quote(props) {
+function Quotes(props) {
     return (
         <div>
-
+            Quotes
         </div>
     );
 }
 
-export default Quote;
+export default Quotes;
