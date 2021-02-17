@@ -2,14 +2,15 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar';
-import { Switch, Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
+import axios from 'axios'
 
 function App(props) {
   return (
     <div className="App">
       <NavBar />
-            {/* <Switch>
+      {/* <Switch>
                 <Route exact path="/" render={(props) => <Home {...props} />} />
                 <Route exact path="/RandomBeer" render={(props) => <RandomBeer {...props} />} />
                 <Route exact path="/NewBeer" render={(props) => <NewBeer {...props} />} />

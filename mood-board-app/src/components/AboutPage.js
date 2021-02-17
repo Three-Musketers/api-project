@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Home(props) {
+function AboutPage(props) {
     return (
         <div>
 
@@ -8,4 +8,4 @@ function Home(props) {
     );
 }
 
-export default Home;
+export default AboutPage;
