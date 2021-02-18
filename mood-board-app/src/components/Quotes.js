@@ -11,7 +11,7 @@ function Quotes(props) {
         axios.get('https://type.fit/api/quotes')
             .then(res => {
                 console.log(res)
-                setQuotes(res.data.slice(0, 250))
+                setQuotes(res.data.slice(0, 400))
             })
     })
     return (
