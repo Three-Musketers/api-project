@@ -13,14 +13,35 @@ function Quotes(props) {
                 console.log(res)
                 setQuotes(res.data.slice(0, 400))
             })
-    })
+    },[])
+
+    function randomize () {
+        let randomNum = Math.floor(Math.random()*quotes.length)
+        return(
+            <div>
+                <p>
+                {quotes[randomNum]?.text}
+                </p>
+                <p>
+                {quotes[randomNum]?.author}
+                </p>
+            </div>
+        ) 
+    }
+
+        
+
     return (
         <div className="quotesContainer">
-            {quotes?.map(eachQuote => {
+        {randomize()}
+            {/* {quotes?.map(eachQuote => {
                 return (
-                    <p>{eachQuote.text}</p>
+                    <div>
+                    <p>"{eachQuote.text}"</p>
+                    <p>- {eachQuote.author}</p>
+                    </div>
                 )
-            })}
+            })} */}
         </div>
     );
 }
