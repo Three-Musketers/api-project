@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import "./Jokes.css"
 
 
 function Jokes(props) {
@@ -18,10 +19,10 @@ function Jokes(props) {
     }, [])
 
     return (
-        <div>
+        <div className= "jokesContainer">
 
-            <p>{jokes.setup}</p>
-            <p>{jokes.punchline}</p>
+            <h1><p>Q: {jokes.setup}</p></h1>
+            <h3><p>{jokes.punchline}</p></h3>
 
         </div>
     );
