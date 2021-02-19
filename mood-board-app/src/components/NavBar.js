@@ -1,11 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
-
-
+import { Link } from 'react-router-dom';
 
 function NavBar(props) {
     return (
-        <nav>
+        <nav className="Nav-bar">
             <Link to="/">Home</Link>
             <Link to="/Jokes">Jokes</Link>
             <Link to="/Advice">Advice</Link>
