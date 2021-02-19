@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import "./Advice.css"
 
 // axios.get('https://api.adviceslip.com/advice')
 //     .then(res => console.log(res))
@@ -8,12 +9,17 @@ function Advice(props) {
 
     const [advice, setAdvice] = useState("")
 
-    useEffect(() => {
+
+    const getAdvice = () => {
         axios.get('https://api.adviceslip.com/advice')
             .then(res => {
                 console.log(res)
                 setAdvice(res.data.slip.advice)
             })
+    }
+
+    useEffect(() => {
+        getAdvice();
 
         // let res = await axios.get('https://api.adviceslip.com/advice')
         // console.log(res)
@@ -22,10 +28,9 @@ function Advice(props) {
 
 
     return (
-        <div className= "adviceContainer">
-
-            <p>{advice}</p>
-            
+        <div className="adviceContainer" >
+            {advice}
+            <button onClick={getAdvice}>Get more advice</button>
         </div>
     );
 }
