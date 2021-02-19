@@ -19,12 +19,10 @@ function Quotes(props) {
         let randomNum = Math.floor(Math.random()*quotes.length)
         return(
             <div>
-                <p>
-                {quotes[randomNum]?.text}
-                </p>
-                <p>
-                {quotes[randomNum]?.author}
-                </p>
+
+                <h1><p>"{quotes[randomNum]?.text}"</p></h1>
+                <h3><p>- {quotes[randomNum]?.author}</p></h3>
+
             </div>
         ) 
     }

@@ -22,8 +22,10 @@ function Advice(props) {
 
 
     return (
-        <div>
-            {advice}
+        <div className= "adviceContainer">
+
+            <p>{advice}</p>
+            
         </div>
     );
 }
