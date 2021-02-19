@@ -1,3 +1,16 @@
 .quotesContainer {
-  background-color: navajowhite;
+  font-style: initial;
+  font-size: 30px;
+ display: flex;
+ justify-content: center;
+ text-shadow: 2px 2px #FF0000;
+ font-family: 'Corben', Georgia, Times, serif;
 }
+  
+
+.quote {
+    padding: 20px;
+    margin: 20px;
+}
+
+  
