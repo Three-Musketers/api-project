@@ -15,7 +15,11 @@ function Advice(props) {
             .then(res => {
                 console.log(res)
                 setAdvice(res.data.slip.advice)
+                //remove elementgit push
+
             })
+
+        // document.createElement
     }
 
     useEffect(() => {
@@ -28,16 +32,10 @@ function Advice(props) {
 
 
     return (
-<<<<<<< HEAD
         <div className="adviceContainer" >
             {advice}
             <button onClick={getAdvice}>Get more advice</button>
-=======
-        <div className= "adviceContainer">
 
-            <p>{advice}</p>
-            
->>>>>>> 11d123a519abf23401f0255e628ee8280c7f0162
         </div>
     );
 }

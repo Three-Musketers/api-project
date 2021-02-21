@@ -13,25 +13,25 @@ function Quotes(props) {
                 console.log(res)
                 setQuotes(res.data.slice(0, 400))
             })
-    },[])
+    }, [])
 
-    function randomize () {
-        let randomNum = Math.floor(Math.random()*quotes.length)
-        return(
+    function randomize() {
+        let randomNum = Math.floor(Math.random() * quotes.length)
+        return (
             <div>
 
                 <h1><p>"{quotes[randomNum]?.text}"</p></h1>
                 <h3><p>- {quotes[randomNum]?.author}</p></h3>
 
             </div>
-        ) 
+        )
     }
 
-        
+
 
     return (
         <div className="quotesContainer">
-        {randomize()}
+            {randomize()}
             {/* {quotes?.map(eachQuote => {
                 return (
                     <div>
