@@ -15,7 +15,7 @@ function MoodAngry(props) {
                 <Quotes/>
                 {/* <img src={angryBg} alt="angry background" width="1800px" /> */}
             </div>
-            <div className = "HomeBtn"><Link to="/"><img src = {facebutton} alt = "faces" style= {{width: "30vw", height: "25vh"}}/></Link></div>
+            <div className = "HomeBtn"><Link to="/"><img src = {facebutton} alt = "faces" style= {{width: "20vw", height: "15vh"}}/></Link></div>
         </div>
     );
 }
