@@ -3,6 +3,7 @@ import happyBg from './assets/backgrounds/happy-background.png';
 import Jokes from './Jokes.js'
 import Advice from './Advice.js'
 import Quotes from './Quotes.js'
+import {Link} from 'react-router-dom'
 
 function MoodHappy(props) {
     
@@ -16,6 +17,7 @@ function MoodHappy(props) {
                 <Quotes/>
                 {/* <img src={happyBg} alt="happy background" width="1800px" /> */}
             </div>
+            <Link to="/"><button>Home</button></Link>
         </div>
     );
 }

@@ -3,6 +3,7 @@ import sadBg from './assets/backgrounds/sad-background.png';
 import Jokes from './Jokes.js';
 import Advice from './Advice.js';
 import Quotes from './Quotes.js';
+import {Link} from 'react-router-dom'
 
 function MoodSad(props) {
     return (
@@ -14,6 +15,7 @@ function MoodSad(props) {
                     <Advice/>
                     <Quotes/>
                 </div>
+                <Link to="/"><button>Home</button></Link>
             </div>
     );
 }
