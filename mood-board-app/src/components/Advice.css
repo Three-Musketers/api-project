@@ -1,3 +1,9 @@
 .adviceContainer {
-     background-color: maroon;
-}
+     font-style: initial;
+     font-size: 30px;
+     display: flex;
+     justify-content: center;
+     text-shadow: 2px 2px #ff0000;
+     font-family: "Corben", Georgia, Times, serif;
+   }
+

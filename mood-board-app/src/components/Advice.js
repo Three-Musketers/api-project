@@ -34,7 +34,8 @@ function Advice(props) {
     return (
         <div className="adviceContainer" >
             {advice}
-            <button onClick={getAdvice}>Get more advice</button>
+
+            <p><button onClick={getAdvice}>Get more advice</button></p>
         </div>
     );
 }
