@@ -1,14 +1,15 @@
 .adviceContainer {
-     font-style: initial;
-     font-size: 30px;
+     /* font-style: initial; */
+     font-size: 40px;
      display: flex;
      flex-direction: column;
      justify-content: center;
-     text-shadow:pink;
+     text-shadow: 2px 2px #ff0000;
      font-family: "Corben", Georgia, Times, serif;
    }
 
    .adviceContainer p button {
+        background: lightyellow;
         padding: 20px;
         font-style:inherit;
         font-size: 16px;
@@ -27,5 +28,5 @@
  
 
    .adviceContainer p button:hover {
-      background-color: azure;
+      background-color:red;
     }
