@@ -40,6 +40,14 @@ nav a:hover {
   /* margin-bottom: 25px; */
 }
 
+.HomeBtn {
+  background: url(./components/assets/buttons/mood-logo.png) no-repeat;
+  cursor: pointer;
+  border: none;
+  width: 50px;
+  height: 50px;
+}
+
 .Mood-img {
   display: flex;
   justify-content: center;
