@@ -69,7 +69,23 @@ body div {
   margin-top: 0px;
 }
 
-/* .HomeBtn img {
-  height: 50vh;
-  width: 10vw;
-} */
+.HomeBtn img {
+  opacity: 0.8;
+  animation: animate 5s ease-in infinite;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.HomeBtn img:hover {
+  filter: brightness(200%);
+}

@@ -15,7 +15,7 @@ function MoodScared(props) {
                 <Quotes/>
                 {/* <img src={scaredBg} alt="scared background" width="1800px" /> */}
             </div>
-            <div ><Link to="/"><img src = {facebutton} alt = "faces" style= {{width: "30vw", height: "15vh"}}/></Link></div>
+            <div className = "HomeBtn"><Link to="/"><img src = {facebutton} alt = "faces" style= {{width: "30vw", height: "25vh"}}/></Link></div>
         </div>
     );
 }
