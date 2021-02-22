@@ -1,3 +1,32 @@
 .adviceContainer {
-     background-color: maroon;
-}
+     /* font-style: initial; */
+     font-size: 40px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-shadow: 2px 2px #ff0000;
+     font-family: "Corben", Georgia, Times, serif;
+   }
+
+   .adviceContainer p button {
+        background: lightyellow;
+        padding: 20px;
+        font-style:inherit;
+        font-size: 16px;
+        text-shadow:pink;
+        font-weight: bold;
+        border: none;
+          color:lightslategrey;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          font-size: 16px;
+         border-radius: 12px;
+        
+        
+   }
+ 
+
+   .adviceContainer p button:hover {
+      background-color:red;
+    }
