@@ -18,7 +18,7 @@ function App(props) {
   return (
     <div className="App">
 
-      <NavBar />
+      {/* <NavBar /> */}
       <Switch>
         <Route exact path="/" render={(props) => <Home {...props} />} />
         <Route exact path="/Quotes" render={(props) => <Quotes {...props} />} />
