@@ -6,12 +6,12 @@ import Quotes from './Quotes.js'
 
 function MoodScared(props) {
     return (
-        <div className="Mood-page">
+        <div className="Mood-page" id="Scared">
             <div>
                 <Jokes/>
                 <Advice/>
                 <Quotes/>
-                <img src={scaredBg} alt="scared background" width="1800px" />
+                {/* <img src={scaredBg} alt="scared background" width="1800px" /> */}
             </div>
         </div>
     );

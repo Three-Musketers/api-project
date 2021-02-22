@@ -4,16 +4,13 @@ import Jokes from './Jokes.js'
 import Advice from './Advice.js'
 import Quotes from './Quotes.js'
 
-
-
-
-
-
 function MoodHappy(props) {
     
     return (
         <div className="Mood-page" id="Happy">
-            <div>
+            <div style={{
+                backgroundImage: {happyBg}
+            }}>
                 <Jokes/>
                 <Advice/>
                 <Quotes/>

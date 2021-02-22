@@ -48,6 +48,23 @@ body div {
   margin-top: 0px;
 }
 
-/* #sad {
- (similar as happy for all other moods)
-}*/
+#Sad {
+  background: url("./components/assets/backgrounds/sad-background.png");
+  height: 100vh;
+  width: auto;
+  margin-top: 0px;
+}
+
+#Angry {
+  background: url("./components/assets/backgrounds/angry-background.png");
+  height: 100vh;
+  width: auto;
+  margin-top: 0px;
+}
+
+#Scared {
+  background: url("./components/assets/backgrounds/scared-background.png");
+  height: 100vh;
+  width: auto;
+  margin-top: 0px;
+}
