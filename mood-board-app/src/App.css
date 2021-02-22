@@ -1,7 +1,6 @@
-body div{
-/* margin-top: 50px;  */
+body div {
+  /* margin-top: 50px;  */
 }
-
 
 .App {
   text-align: center;
@@ -18,7 +17,7 @@ body div{
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -27,7 +26,7 @@ body div{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
@@ -41,3 +40,14 @@ body div{
     transform: rotate(360deg);
   }
 }
+
+#Happy {
+  background: url("./components/assets/backgrounds/happy-background.png");
+  height: 100vh;
+  width: auto;
+  margin-top: 0px;
+}
+
+/* #sad {
+ (similar as happy for all other moods)
+}*/

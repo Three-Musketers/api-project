@@ -1,12 +1,18 @@
 .quotesContainer {
   font-style: initial;
   font-size: 30px;
- display: flex;
- justify-content: center;
- text-shadow: 2px 2px #FF0000;
- font-family: 'Corben', Georgia, Times, serif;
+  display: flex;
+  justify-content: center;
+  text-shadow: 2px 2px #ff0000;
+  font-family: "Corben", Georgia, Times, serif;
 }
-  
 
+<<<<<<< HEAD
 
   
+=======
+.quote {
+  padding: 20px;
+  margin: 20px;
+}
+>>>>>>> eafc5834701f7ab2ea1feb22856dc09cf3698786

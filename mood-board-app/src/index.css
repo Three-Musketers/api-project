@@ -1,8 +1,8 @@
 html,
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -12,14 +12,13 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-
 nav {
   display: flex;
-  background-color: #50272B;
+  background-color: #50272b;
   padding: 22px;
   justify-content: space-evenly;
 }
@@ -57,16 +56,15 @@ nav a:hover {
   filter: drop-shadow(0 -6mm 4mm #803c43);
 }
 
-
 /*DESKTOP*/
 
-@media (min-width: 375px){
+@media (min-width: 375px) {
   #Mood img {
     max-width: 375px;
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  
+
   #Box {
     display: flex;
     flex-direction: column;
@@ -86,13 +84,13 @@ nav a:hover {
   }
 }
 
-@media (min-width: 800px){
+@media (min-width: 800px) {
   #Mood img {
     max-width: 1276px;
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  
+
   #Box {
     display: flex;
     flex-direction: row;
