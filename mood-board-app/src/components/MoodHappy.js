@@ -18,7 +18,7 @@ function MoodHappy(props) {
                 <Quotes/>
                 {/* <img src={happyBg} alt="happy background" width="1800px" /> */}
             </div>
-            <div className = "HomeBtn"><Link to="/"><img src = {facebutton} alt = "faces" style= {{width: "30vw", height: "25vh"}}/></Link></div>
+            <div className = "HomeBtn"><Link to="/"><img src = {facebutton} alt = "faces" style= {{width: "20vw", height: "15vh"}}/></Link></div>
         </div>
     );
 }
