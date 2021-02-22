@@ -15,7 +15,11 @@ function Advice(props) {
             .then(res => {
                 console.log(res)
                 setAdvice(res.data.slip.advice)
+                //remove elementgit push
+
             })
+
+        // document.createElement
     }
 
     useEffect(() => {
